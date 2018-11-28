@@ -9,12 +9,9 @@ public class Hw7 {
 		int a2=a%1000/100;
 		int a3=a%100/10;
 		int a4=a%10;
-		if (a1+a2==a3+a4)
-		{
+		if ((a1+a2)==(a3+a4)){
 			System.out.println("Yours ticket is lucky");
-		}
-		else
-		{
+		}else{
 			System.out.println("Yours ticket is unlucky");
 		}
 	}
