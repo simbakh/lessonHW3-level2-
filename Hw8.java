@@ -13,12 +13,9 @@ public class Hw8 {
 		int a4=a%1000/100;
 		int a5=a%100/10;
 		int a6=a%10;
-		if (a1==a6 && a2==a5 && a3==a4)
-		{
+		if (a1==a6 && a2==a5 && a3==a4){
 			System.out.println("Yours number is polyndromic");
-		}
-		else 
-		{
+		}else {
 			System.out.println("Yours number is unpolyndromic");
 		}
 			
