@@ -14,16 +14,11 @@ public class Hw5 {
 		System.out.println("Enter the center of the circle (Yc)");
 		int Yc = sc.nextInt();
 		int r = 4;
-		if ((Math.pow((x - Xc), 2)+ Math.pow((y - Yc), 2)) < 16 )
-{
+		if ((Math.pow((x - Xc), 2)+ Math.pow((y - Yc), 2)) < 16 ){
 	System.out.println("Yours (x,y) is in the circle ");
-}
-		else if ((Math.pow((x - Xc), 2)+ Math.pow((y - Yc), 2)) == 16 )
-		{
+}else if ((Math.pow((x - Xc), 2)+ Math.pow((y - Yc), 2)) == 16 ){
 			System.out.println("Yours (x,y) is on the circle ");
-		}
-		else  if ((Math.pow((x - Xc), 2)+ Math.pow((y - Yc), 2)) > 16 )
-		{
+		}else  if ((Math.pow((x - Xc), 2)+ Math.pow((y - Yc), 2)) > 16 ){
 			System.out.println("Yours (x,y) is out of the circle ");
 		}
 	}
