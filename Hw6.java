@@ -9,12 +9,9 @@ public class Hw6 {
 		int x = sc.nextInt();
 		System.out.println("Enter the (y)");
 		int y = sc.nextInt();
-		if (x<=6 && y>=1 && y <= 6)
-		{
+		if (x<=6 && y>=1 && y <= 6){
 			System.out.println("Yours (x,y) is in the triangle ");
-		}
-		else 
-		{
+		}else {
 			System.out.println("Yours (x,y) is out of the  triangle ");
 		}
 	}
